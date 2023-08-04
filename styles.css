@@ -1,8 +1,29 @@
 body {
   text-align: center;
-  background-color: yellow;
+  background: linear-gradient(
+    to right,
+    #6f7280,
+    #2a2c3c,
+    #181827,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  );
+  background-size: 400% 400%;
+  animation: body 10s infinite ease-in-out;
 }
 
+@keyframes body {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
 h1 {
   font-size: 5rem;
   color: #DBEDF3;
@@ -16,15 +37,15 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
+.a {
   background-image: url("tom1.png");
 }
 
-.a {
+.b {
   background-image: url("tom2.png");
 }
 
-.s {
+.c {
   background-image: url("tom3.png");
 }
 
@@ -32,16 +53,19 @@ footer {
   background-image: url("tom4.png");
 }
 
-.j {
-  background-image: url("snare.png");
+.e {
+  background-image: url("https://zinginstruments.com/wp-content/uploads/2019/09/Snare-Drum.png");
 }
 
-.k {
+.f {
   background-image: url("crash.png");
 }
 
-.l {
+.g {
   background-image: url("kick.png");
+}
+.h {
+  background-image: url("https://zinginstruments.com/wp-content/uploads/2019/09/bass-drum.png");
 }
 
 .set {
